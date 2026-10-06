@@ -6,8 +6,8 @@ const projects = [
     description:
       "A responsive e-commerce website with product listings, categories, shopping cart functionality and a modern user interface.",
     technologies: ["React", "JavaScript", "Tailwind CSS"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://ecommerce-website-mauve-rho.vercel.app",
+    githubUrl: "https://github.com/muaaz2003ahmed/Ecommerce-Website",
   },
   {
     title: "Task Management App",
@@ -59,8 +59,8 @@ function Projects() {
           <div className="mx-auto mt-5 h-1 w-16 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500" />
 
           <p className="mx-auto mt-6 max-w-2xl text-slate-400">
-            A selection of projects I've built while learning and developing
-            my frontend and JavaScript skills.
+            A selection of projects I've built while learning and developing my
+            frontend and JavaScript skills.
           </p>
         </div>
 
@@ -111,6 +111,8 @@ function Projects() {
                 <div className="flex items-center gap-3">
                   <a
                     href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-300 transition hover:border-cyan-400/30 hover:bg-cyan-400/10 hover:text-cyan-300"
                   >
                     <FaGithub />
@@ -119,6 +121,8 @@ function Projects() {
 
                   <a
                     href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 rounded-lg bg-gradient-to-r from-cyan-400 to-blue-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5"
                   >
                     <FaExternalLinkAlt />
