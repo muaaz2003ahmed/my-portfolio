@@ -6,7 +6,7 @@ function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
         {/* Logo */}
         <a href="#home" className="text-2xl font-bold text-white">
-          My<span className="text-sky-400">Portfolio</span>
+          Muaaz<span className="text-sky-400"> Ahmed</span>
         </a>
 
         {/* Navigation */}

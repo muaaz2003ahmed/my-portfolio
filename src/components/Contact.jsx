@@ -74,7 +74,7 @@ function Contact() {
                 </p>
 
                 <p className="mt-1 truncate text-sm text-slate-300 group-hover:text-cyan-300">
-                  muaaz09082003@gmail.com
+                  muaazahmed0309@gmail.com
                 </p>
               </div>
             </a>
@@ -95,7 +95,7 @@ function Contact() {
                 </p>
 
                 <p className="mt-1 text-sm text-slate-300 group-hover:text-blue-300">
-                  0309 0005607
+                  +92 309 0005607
                 </p>
               </div>
             </a>
@@ -118,7 +118,8 @@ function Contact() {
                 </p>
 
                 <p className="mt-1 truncate text-sm text-slate-300 group-hover:text-purple-300">
-                  github.com/yourusername
+                  <github className="com" />
+                  <muaaz2003ahmed></muaaz2003ahmed>
                 </p>
               </div>
             </a>

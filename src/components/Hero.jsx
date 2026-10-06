@@ -16,7 +16,7 @@ function Hero() {
           </h1>
 
           <h2 className="mb-6 text-2xl font-semibold leading-tight text-slate-300 sm:text-3xl">
-            Junior JavaScript <span className="text-cyan-400">&</span>
+            JavaScript <span className="text-cyan-400">&</span>
             <br className="hidden sm:block" />
             React Developer
           </h2>

@@ -49,7 +49,7 @@ function About() {
             <div className="space-y-4 text-base leading-7 text-slate-400">
 
               <p>
-                I'm a junior JavaScript and React developer who enjoys
+                I'm a JavaScript and React developer who enjoys
                 building modern, responsive and user-friendly web
                 applications.
               </p>
