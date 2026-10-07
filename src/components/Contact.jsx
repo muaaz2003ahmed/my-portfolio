@@ -103,7 +103,7 @@ function Contact() {
       
 
             <a
-              href="#"
+              href="https://github.com/muaaz2003ahmed"
               target="_blank"
               rel="noreferrer"
               className="group mb-4 flex items-center gap-4 rounded-xl border border-white/10 bg-white/[0.03] p-4 transition-all duration-300 hover:border-purple-400/30 hover:bg-purple-400/5"
@@ -117,9 +117,8 @@ function Contact() {
                   GitHub
                 </p>
 
-                <p className="mt-1 truncate text-sm text-slate-300 group-hover:text-purple-300">
-                  <github className="com" />
-                  <muaaz2003ahmed></muaaz2003ahmed>
+                <p className="mt-1 text-sm text-slate-300 group-hover:text-blue-300">
+                  https://github.com/muaaz2003ahmed
                 </p>
               </div>
             </a>
@@ -127,7 +126,7 @@ function Contact() {
             
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/muaaz-ahmed-4a3684441/"
               target="_blank"
               rel="noreferrer"
               className="group flex items-center gap-4 rounded-xl border border-white/10 bg-white/[0.03] p-4 transition-all duration-300 hover:border-blue-400/30 hover:bg-blue-400/5"
@@ -142,7 +141,7 @@ function Contact() {
                 </p>
 
                 <p className="mt-1 truncate text-sm text-slate-300 group-hover:text-blue-300">
-                  linkedin.com/in/yourusername
+                  https://www.linkedin.com/in/muaaz-ahmed-4a3684441/
                 </p>
               </div>
             </a>

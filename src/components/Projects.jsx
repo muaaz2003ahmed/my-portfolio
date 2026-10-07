@@ -1,4 +1,5 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import ecommerceImage from "../assets/ecommerce.PNG";
 
 const projects = [
   {
@@ -6,6 +7,7 @@ const projects = [
     description:
       "A responsive e-commerce website with product listings, categories, shopping cart functionality and a modern user interface.",
     technologies: ["React", "JavaScript", "Tailwind CSS"],
+    image: ecommerceImage,
     liveUrl: "https://ecommerce-website-mauve-rho.vercel.app",
     githubUrl: "https://github.com/muaaz2003ahmed/Ecommerce-Website",
   },
@@ -74,12 +76,22 @@ function Projects() {
             >
               {/* Project Image Placeholder */}
 
-              <div className="relative flex h-48 items-center justify-center overflow-hidden bg-gradient-to-br from-cyan-500/10 via-blue-500/10 to-purple-500/10">
-                <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/5 to-purple-500/10" />
+              <div className="relative h-48 overflow-hidden bg-slate-900">
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt={`${project.title} preview`}
+                    className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <>
+                    <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/10 to-purple-500/10" />
 
-                <span className="relative bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-5xl font-bold text-transparent">
-                  &lt;/&gt;
-                </span>
+                    <span className="relative flex h-full items-center justify-center bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-5xl font-bold text-transparent">
+                      &lt;/&gt;
+                    </span>
+                  </>
+                )}
               </div>
 
               {/* Project Content */}
