@@ -1,5 +1,5 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import ecommerceImage from "../assets/ecommerce.PNG";
+import ecommerceImage from "../assets/Ecommerce.PNG";
 import weatherImage from "../assets/weather.png";
 
 const projects = [
