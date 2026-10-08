@@ -24,7 +24,7 @@ const projects = [
     title: "Weather Application",
     description:
       "A responsive weather application that displays weather information using an external API and provides a clean user experience.",
-    technologies: ["JavaScript", "API", "Tailwind CSS"],
+    technologies: ["React", "JavaScript", "Tailwind CSS", "Open-Meteo API"],
     image: weatherImage,
     liveUrl: "https://weather-application-q1ti.vercel.app/",
     githubUrl: "https://github.com/muaaz2003ahmed/Weather-Application",
