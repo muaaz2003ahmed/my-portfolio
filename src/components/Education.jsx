@@ -1,6 +1,6 @@
 const education = [
   {
-    year: "Present",
+    year: "2023 — Continue...",
     title: "BS Computer Science",
     institution: "University of Science and Technology (UST)",
     description:
